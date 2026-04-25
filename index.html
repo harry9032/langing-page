@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-FOOD | Taste of Korea</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">K-FOOD<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" data-ko="홈페이지" data-en="Home">홈페이지</a></li>
+            <li><a href="#products" data-ko="제품" data-en="Products">제품</a></li>
+            <li><a href="#story" data-ko="스토리" data-en="Story">스토리</a></li>
+            <li><a href="#contact" data-ko="문의" data-en="Contact">문의</a></li>
+        </ul>
+        <div class="lang-switcher">
+            <button id="lang-btn">EN</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-ko="한국의 맛, 세계를 사로잡다" data-en="The Taste of Korea, Captivating the World">한국의 맛, 세계를 사로잡다</h1>
+            <p data-ko="자연과 시간이 빚어낸 건강한 한국 음식을 경험해보세요." 
+               data-en="Experience healthy Korean food crafted by nature and time.">
+               자연과 시간이 빚어낸 건강한 한국 음식을 경험해보세요.
+            </p>
+            <a href="#products" class="cta-btn" data-ko="메뉴 보기" data-en="View Menu">메뉴 보기</a>
+        </div>
+    </section>
+
+    <section id="products" class="container">
+        <h2 class="section-title" data-ko="대표 메뉴" data-en="Signature Menu">대표 메뉴</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=500')"></div>
+                <h3 data-ko="비빔밥" data-en="Bibimbap">비빔밥</h3>
+                <p data-ko="각종 나물과 고추장의 조화" data-en="Harmony of vegetables and spicy sauce">각종 나물과 고추장의 조화</p>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1583182332473-b31ba08929c8?q=80&w=500')"></div>
+                <h3 data-ko="불고기" data-en="Bulgogi">불고기</h3>
+                <p data-ko="전통 비법 양념의 소고기 요리" data-en="Marinated beef with traditional secret sauce">전통 비법 양념의 소고기 요리</p>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=500')"></div>
+                <h3 data-ko="김치" data-en="Kimchi">김치</h3>
+                <p data-ko="한국의 대표적인 발효 음식" data-en="Korea's representative fermented food">한국의 대표적인 발효 음식</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
